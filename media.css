@@ -1,0 +1,359 @@
+ @media (max-width:1302px){
+    #sectiontext{
+       font-size: 50px;
+
+    }
+    #sectionptext{
+font-size:15;
+    }
+ }
+ @media (max-width:1100px)
+{
+    #sectiontext{
+        font-size: 40px;
+        gap: 30px;
+
+    }
+    #sectionptext{
+
+    }
+    #logobacgrand{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+   
+}
+@media (max-width:1023px){
+     #sectiontext{
+        font-size:30px;
+     }
+}
+ 
+ 
+ @media (max-width: 640px) {
+            header .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .header-logo span {
+                font-size: 1.25rem;
+            }
+
+            .header-logo div {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            #home {
+                padding-top: 5rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            #home h1 {
+                font-size: 2rem;
+                line-height: 2.5rem;
+            }
+
+            #home p {
+                font-size: 0.875rem;
+            }
+
+            #home .flex.space-x-4 {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            #home .flex.space-x-4 a {
+                width: 100%;
+                text-align: center;
+                padding: 0.75rem;
+            }
+
+            .logo-container {
+                width: 12rem;
+                height: 12rem;
+            }
+
+            .logo-icon {
+                font-size: 2.5rem !important;
+            }
+
+            #projects, #certificates, #services, #contact {
+                padding: 2rem 1rem;
+            }
+
+            #projects h2, #certificates h2, #services h2, #contact h2 {
+                font-size: 1.75rem;
+            }
+
+            #projects .grid, #certificates .grid, #projects-page .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-hover {
+                padding: 1rem;
+            }
+
+            #contact .max-w-2xl {
+                padding: 1.5rem;
+            }
+
+            #contact .flex {
+                flex-direction: column;
+            }
+
+            #contact .md\:w-1\/2 {
+                width: 100%;
+            }
+
+            #contact input, #contact textarea {
+                font-size: 0.875rem;
+                padding: 0.5rem;
+            }
+
+            #contact button {
+                padding: 0.75rem;
+                font-size: 0.875rem;
+            }
+
+            footer {
+                padding: 2rem 1rem;
+            }
+
+            footer .flex {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            footer .text-lg {
+                font-size: 1rem;
+            }
+
+            footer .w-8 {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+
+            footer .flex.space-x-4 {
+                gap: 0.5rem;
+            }
+
+            footer .w-10 {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            #projects-page {
+                padding: 1rem;
+            }
+
+            #projects-page h2 {
+                font-size: 1.75rem;
+            }
+
+            #projects-page .w-16 {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            #projects-page h3 {
+                font-size: 1.25rem;
+            }
+
+            #projects-page p {
+                font-size: 0.875rem;
+            }
+
+            #projects-page a {
+                padding: 0.5rem 1rem;
+                font-size: 0.875rem;
+            }
+
+            .typing-effect {
+                animation: typing 2s steps(30, end);
+            }
+
+            .fade-in-up {
+                animation-duration: 0.6s;
+            }
+        }
+
+        /* Media Queries for Tablets (475px to 815px) */
+        @media (max-width: 815px) {
+            .container {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            header .container {
+                padding: 1rem 1.5rem;
+            }
+
+            .header-logo span {
+                font-size: 1.5rem;
+            }
+
+            .header-logo div {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            .header-logo div span {
+                font-size: 1rem;
+            }
+
+            #home {
+                padding-top: 6rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            #home h1 {
+                font-size: 2.5rem;
+                line-height: 3rem;
+            }
+
+            #home p {
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+
+            #home .flex.space-x-4 {
+                flex-direction: column;
+                gap: 1.25rem;
+                justify-content: center;
+            }
+
+            #home .flex.space-x-4 a {
+                width: 100%;
+                padding: 0.875rem;
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            .logo-container {
+                width: 16rem;
+                height: 16rem;
+            }
+
+            .logo-icon {
+                font-size: 4rem !important;
+            }
+
+            #projects, #certificates, #services, #contact {
+                padding: 2.5rem 1.5rem;
+            }
+
+            #projects h2, #certificates h2, #services h2, #contact h2 {
+                font-size: 2rem;
+            }
+
+            #projects .grid, #certificates .grid, #projects-page .grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .card-hover {
+                padding: 1.5rem;
+            }
+
+            .card-hover h3 {
+                font-size: 1.5rem;
+            }
+
+            .card-hover p {
+                font-size: 1rem;
+            }
+
+            .card-hover a {
+                font-size: 1rem;
+                padding: 0.75rem 1.5rem;
+            }
+
+            #contact .max-w-2xl {
+                padding: 2rem;
+            }
+
+            #contact .flex {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            #contact .md\:w-1\/2 {
+                width: 100%;
+            }
+
+            #contact input, #contact textarea {
+                font-size: 1rem;
+                padding: 0.75rem;
+            }
+
+            #contact button {
+                padding: 0.875rem;
+                font-size: 1rem;
+            }
+
+            footer {
+                padding: 2.5rem 1.5rem;
+            }
+
+            footer .flex {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            footer .text-lg {
+                font-size: 1.125rem;
+            }
+
+            footer .w-8 {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            footer .flex.space-x-4 {
+                gap: 1rem;
+            }
+
+            footer .w-10 {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            #projects-page {
+                padding: 1.5rem;
+            }
+
+            #projects-page h2 {
+                font-size: 2rem;
+            }
+
+            #projects-page .w-16 {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            #projects-page h3 {
+                font-size: 1.5rem;
+            }
+
+            #projects-page p {
+                font-size: 1rem;
+            }
+
+            #projects-page a {
+                padding: 0.75rem 1.5rem;
+                font-size: 1rem;
+            }
+
+            .typing-effect {
+                animation: typing 2.5s steps(35, end);
+            }
+
+            .fade-in-up {
+                animation-duration: 0.7s;
+            }
+        }
